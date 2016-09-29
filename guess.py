@@ -1,6 +1,7 @@
 import random
 
 magic_number = random.randrange(1,100,1)
+print("Guess the magic number.")
 
 def game():
 	count = int(input("How many guesses would you like?   "))
